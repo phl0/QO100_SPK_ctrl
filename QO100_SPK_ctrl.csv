@@ -1,0 +1,17 @@
+Refs,Value,Footprint,Quantity,DESC,MFR,MPN,SPR,SPN,SPURL
+J4,12V in,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,BKL,10120919,Reichelt,BKL 10120919,https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&trstct=pol_39&nbc=1
+D3,PTT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,BKL,10120919,Reichelt,BKL 10120919,https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&trstct=pol_39&nbc=1
+J5,PTT UpConv,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,BKL,10120919,Reichelt,BKL 10120919,https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&trstct=pol_39&nbc=1
+J1,PTT in,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,BKL,10120919,Reichelt,BKL 10120919,https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&trstct=pol_39&nbc=1
+D1,SPK off,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,-,BKL,10120919,Reichelt,BKL 10120919,https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&trstct=pol_39&nbc=1
+RV1,47R,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,-,P4W-LIN 47,Reichelt,,https://www.reichelt.de/hochlast-drahtpotentiometer-47-ohm-linear-6-mm-p4w-lin-47-p54289.html?&trstct=pol_1&nbc=1
+J6,PTT ctrl,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,BKL,10120200,Reichelt,BKL 10120200,https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&trstct=vrt_pdn&nbc=1
+J7,SPK ctrl,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,BKL,10120200,Reichelt,BKL 10120200,https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&trstct=vrt_pdn&nbc=1
+J2,SPK in,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,BKL,10120200,Reichelt,BKL 10120200,https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&trstct=vrt_pdn&nbc=1
+J3,SPK out,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1,-,BKL,10120200,Reichelt,BKL 10120200,https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&trstct=vrt_pdn&nbc=1
+D2;D4,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,2,-,RND,RND 1N4148,Reichelt,RND 1N4148,https://www.reichelt.de/schalt-diode-100-v-200-ma-do-35-rnd-1n4148-p223368.html?&trstct=pos_1&nbc=1
+Q1;Q2,BC557B,Package_TO_SOT_THT:TO-92,2,-,CDIL,BC 557B,Reichelt,BC 557B,https://www.reichelt.de/bipolartransistor-pnp-45v-0-1a-0-5w-to-92-bc-557b-p35845.html?&trstct=pos_0&nbc=1
+K1,SDS S2 12V,QO100_SPK_ctrl:Relay_SDS_S2,1,Relay,Panasonic,S2-DC12V,Farnell,1175722,https://de.farnell.com/panasonic/s2-12vdc/relais-2no-2nc-250vac-30vdc-4a/dp/1175722
+R3;R6,10k,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,2,-,-,1/4W 10K,Reichelt,1/4W 10K,https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html?&trstct=pol_4&nbc=1
+R2;R5,1k,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,2,-,-,"1/4W 1,0K",Reichelt,"1/4W 1,0K",https://www.reichelt.de/widerstand-kohleschicht-1-0-kohm-0207-250-mw-5--1-4w-1-0k-p1315.html?&trstct=pos_1&nbc=1
+R1;R4,4k7,Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,2,-,-,"1/4W 4,7K",Reichelt,"1/4W 4,7K",https://www.reichelt.de/widerstand-kohleschicht-4-7-kohm-0207-250-mw-5--1-4w-4-7k-p1425.html?&trstct=pos_0&nbc=1

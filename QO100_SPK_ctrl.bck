@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EC2-12NU
+D General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil
+K signal relay double pole double throw DPDT DC coil non latching
+F https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+$CMP EC2-24NU
+D General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 24V DC coil
+K signal relay double pole double throw DPDT DC coil non latching
+F https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+$CMP EC2-4.5NU
+D General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 4.5V DC coil
+K signal relay double pole double throw DPDT DC coil non latching
+F https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+$CMP EC2-5NU
+D General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil
+K signal relay double pole double throw DPDT DC coil non latching
+F https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+$CMP SDS_S2
+D General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 3V DC coil
+K signal relay double pole double throw DPDT DC coil non latching
+F https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf
+$ENDCMP
+#
+#End Doc Library

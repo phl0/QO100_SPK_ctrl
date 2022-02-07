@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/florian/cloud.n18.de/N18/QO-100/QO100_SPK_ctrl/QO100_SPK_ctrl.sch</source>
+    <date>So 30 Jan 2022 21:55:19 CET</date>
+    <tool>Eeschema 5.99.0+really5.1.10+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>QO100_SPK_ctrl</title>
+        <company>DF2ET</company>
+        <rev>v0.6</rev>
+        <date>2022-01-13</date>
+        <source>QO100_SPK_ctrl.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">1/4W 4,7K</field>
+        <field name="SPN">1/4W 4,7K</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/widerstand-kohleschicht-4-7-kohm-0207-250-mw-5--1-4w-4-7k-p1425.html?&amp;trstct=pos_0&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61830901</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">1/4W 10K</field>
+        <field name="SPN">1/4W 10K</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html?&amp;trstct=pol_4&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61832277</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PTT in</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120919.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120919</field>
+        <field name="SPN">BKL 10120919</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&amp;trstct=pol_39&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61833612</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SPK off</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120919.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120919</field>
+        <field name="SPN">BKL 10120919</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&amp;trstct=pol_39&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184F248</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">1/4W 1,0K</field>
+        <field name="SPN">1/4W 1,0K</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/widerstand-kohleschicht-1-0-kohm-0207-250-mw-5--1-4w-1-0k-p1315.html?&amp;trstct=pos_1&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6184FDE6</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>SPK in</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120200.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120200</field>
+        <field name="SPN">BKL 10120200</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&amp;trstct=vrt_pdn&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61855D9D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SPK out</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120200.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120200</field>
+        <field name="SPN">BKL 10120200</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&amp;trstct=vrt_pdn&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618570B8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>12V in</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120919.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120919</field>
+        <field name="SPN">BKL 10120919</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&amp;trstct=pol_39&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618641FA</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>PTT UpConv</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120919.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120919</field>
+        <field name="SPN">BKL 10120919</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&amp;trstct=pol_39&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61876729</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">1/4W 4,7K</field>
+        <field name="SPN">1/4W 4,7K</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/widerstand-kohleschicht-4-7-kohm-0207-250-mw-5--1-4w-4-7k-p1425.html?&amp;trstct=pos_0&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618A47E6</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">1/4W 10K</field>
+        <field name="SPN">1/4W 10K</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/widerstand-kohleschicht-10-kohm-0207-250-mw-5--1-4w-10k-p1338.html?&amp;trstct=pol_4&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618A4A01</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PTT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120919.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120919</field>
+        <field name="SPN">BKL 10120919</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p262783.html?&amp;trstct=pol_39&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B4E65</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">1/4W 1,0K</field>
+        <field name="SPN">1/4W 1,0K</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/widerstand-kohleschicht-1-0-kohm-0207-250-mw-5--1-4w-1-0k-p1315.html?&amp;trstct=pos_1&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618B50A9</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>PTT ctrl</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120200.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120200</field>
+        <field name="SPN">BKL 10120200</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&amp;trstct=vrt_pdn&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E2F5E</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>SPK ctrl</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=C140%2F10120200.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">BKL</field>
+        <field name="MPN">10120200</field>
+        <field name="SPN">BKL 10120200</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/stiftleiste-3-polig-raster-2-54mm-bkl-10120200-p235647.html?&amp;trstct=vrt_pdn&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E6A0A</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>47R</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.reichelt.de/hochlast-drahtpotentiometer-47-ohm-linear-6-mm-p4w-lin-47-p54289.html?&amp;trstct=pol_1&amp;nbc=1</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">-</field>
+        <field name="MPN">P4W-LIN 47</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/hochlast-drahtpotentiometer-47-ohm-linear-6-mm-p4w-lin-47-p54289.html?&amp;trstct=pol_1&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189F898</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC557B</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A100%2FBC556_BC557_BC558-CDIL.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">CDIL</field>
+        <field name="MPN">BC 557B</field>
+        <field name="SPN">BC 557B</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/bipolartransistor-pnp-45v-0-1a-0-5w-to-92-bc-557b-p35845.html?&amp;trstct=pos_0&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E50EE</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A200%2FRND_1N4148_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">RND</field>
+        <field name="MPN">RND 1N4148</field>
+        <field name="SPN">RND 1N4148</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/schalt-diode-100-v-200-ma-do-35-rnd-1n4148-p223368.html?&amp;trstct=pos_1&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6185B2E4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC557B</value>
+      <footprint>Package_TO_SOT_THT:TO-92</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A100%2FBC556_BC557_BC558-CDIL.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">CDIL</field>
+        <field name="MPN">BC 557B</field>
+        <field name="SPN">BC 557B</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/bipolartransistor-pnp-45v-0-1a-0-5w-to-92-bc-557b-p35845.html?&amp;trstct=pos_0&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_CBE" description="PNP transistor, collector/base/emitter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6189F237</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SDS S2 12V</value>
+      <footprint>QO100_SPK_ctrl:Relay_SDS_S2</footprint>
+      <datasheet>https://www.farnell.com/datasheets/16770.pdf</datasheet>
+      <fields>
+        <field name="DESC">Relay</field>
+        <field name="MFR">Panasonic</field>
+        <field name="MPN">S2-DC12V</field>
+        <field name="SPN">1175722</field>
+        <field name="SPR">Farnell</field>
+        <field name="SPURL">https://de.farnell.com/panasonic/s2-12vdc/relais-2no-2nc-250vac-30vdc-4a/dp/1175722</field>
+      </fields>
+      <libsource lib="QO100_SPK_ctrl" part="SDS_S2" description="General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 3V DC coil"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618BAD16</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://www.reichelt.de/index.html?ACTION=7&amp;LA=3&amp;OPEN=0&amp;INDEX=0&amp;FILENAME=A200%2FRND_1N4148_DB-EN.pdf</datasheet>
+      <fields>
+        <field name="DESC">-</field>
+        <field name="MFR">RND</field>
+        <field name="MPN">RND 1N4148</field>
+        <field name="SPN">RND 1N4148</field>
+        <field name="SPR">Reichelt</field>
+        <field name="SPURL">https://www.reichelt.de/schalt-diode-100-v-200-ma-do-35-rnd-1n4148-p223368.html?&amp;trstct=pos_1&amp;nbc=1</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E14B9F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_CBE">
+      <description>PNP transistor, collector/base/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_CBE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="QO100_SPK_ctrl" part="SDS_S2">
+      <aliases>
+        <alias>EC2-4.5NU</alias>
+        <alias>EC2-5NU</alias>
+        <alias>EC2-12NU</alias>
+        <alias>EC2-24NU</alias>
+      </aliases>
+      <description>General purpose signal relay, Kemet EC2 Series, DPDT (2 Form C), non-latching, through hole, 60W/125VA, 220VDC/250VAC, 2A, 3V DC coil</description>
+      <docs>https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf</docs>
+      <footprints>
+        <fp>Relay*THT*Kemet*EC2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SDS_S2</field>
+        <field name="Footprint">Relay_THT:Relay_DPDT_Kemet_EC2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="QO100_SPK_ctrl">
+      <uri>/home/florian/cloud.n18.de/N18/QO-100/QO100_SPK_ctrl/QO100_SPK_ctrl.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q2-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D3-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="5" name="Net-(J7-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="J6" pin="3"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="K1" pin="12"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(K1-Pad4)">
+      <node ref="RV1" pin="2"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad2)">
+      <node ref="J5" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="12" name="Net-(K1-Pad6)">
+      <node ref="K1" pin="6"/>
+    </net>
+    <net code="13" name="Net-(K1-Pad7)">
+      <node ref="K1" pin="7"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad2)">
+      <node ref="K1" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J3-Pad2)">
+      <node ref="K1" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="K1" pin="10"/>
+      <node ref="K1" pin="9"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad1)">
+      <node ref="K1" pin="5"/>
+      <node ref="K1" pin="8"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="18" name="Net-(K1-Pad11)">
+      <node ref="RV1" pin="1"/>
+      <node ref="K1" pin="11"/>
+    </net>
+    <net code="19" name="Net-(J4-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R6" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="21" name="GND1">
+      <node ref="J2" pin="3"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="J3" pin="3"/>
+    </net>
+  </nets>
+</export>
