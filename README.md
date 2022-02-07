@@ -13,7 +13,7 @@ The [circuit schematics](QO100_SPK_ctrl.svg) is a simple relay switch using two 
 
 The [few parts](QO100_SPK_ctrl.xlsx) can be grabbed from the spare parts box. For other purposes there is a shopping cart at German distributor Reichelt Eletronik. See [here](https://www.reichelt.de/my/1923061). This does not include the relay. Few of those can be obtained from the author. Same goes for the PCB itself. The LEDs as well as the trimmer are layouted as 2.54mm connectors so that the parts itself can be mounted in a case.
 
-The [interactive BOM](bom/ibom.html) for sourcing and placing the parts can be found in the bom folder of this project.
+The [interactive BOM](https://www.df2et.de/QO100_SPK_ctrl/ibom.html) for sourcing and placing the parts can be found in the bom folder of this project.
 
 ## Known Issues
 
