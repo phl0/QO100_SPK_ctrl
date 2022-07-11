@@ -17,4 +17,11 @@ The [interactive BOM](https://www.df2et.de/QO100_SPK_ctrl/ibom.html) for sourcin
 
 ## Known Issues
 
+### v0.5
 The v0.5 PCB and circuit were missing diode D4. Due to this the PTT transistor was pulled low by the UpConverter. This error has been corrected in v0.6.
+
+### v0.6
+The diode D4 has been added. This PCB rev is missing the 4 drill holes on the PCB edges.
+
+### v0.7
+The missing drill hole for mounting have been re-added.
